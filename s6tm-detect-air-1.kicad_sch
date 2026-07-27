@@ -5283,6 +5283,18 @@
 		)
 		(uuid "eb806056-a11b-484d-b8eb-1ca031b714c4")
 	)
+	(rectangle
+		(start 26.67 53.34)
+		(end 60.96 76.2)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ed257a4d-0934-4b7d-aef5-157c1832fc62")
+	)
 	(text "CAN\nTransceiver"
 		(exclude_from_sim no)
 		(at 126.492 192.024 0)
@@ -5330,6 +5342,18 @@
 			)
 		)
 		(uuid "9104ea5b-e58e-4a3f-b613-12ec781d905b")
+	)
+	(text "SGP41 module\nconnector"
+		(exclude_from_sim no)
+		(at 38.608 71.628 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "9ea4b31f-8941-4c90-b235-b9437509d31b")
 	)
 	(text "UART"
 		(exclude_from_sim no)
@@ -5539,6 +5563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "882ff8e7-df13-4f23-8030-3465025c09bc")
+	)
+	(junction
+		(at 48.26 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a83fdba-e7b5-4d75-b300-b58630917134")
 	)
 	(junction
 		(at 229.87 142.24)
@@ -5940,6 +5970,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4d4357-1a53-4c6b-aae4-0d8b9267a97c")
+	)
+	(wire
+		(pts
 			(xy 60.96 189.23) (xy 60.96 187.96)
 		)
 		(stroke
@@ -6190,6 +6230,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 58.42) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad270ca-2aca-40e2-92e5-d01afe4726f6")
+	)
+	(wire
+		(pts
 			(xy 203.2 129.54) (xy 203.2 128.27)
 		)
 		(stroke
@@ -6370,6 +6420,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ec7a20-6a2b-4951-afd0-f8dd62f1bd37")
+	)
+	(wire
+		(pts
 			(xy 275.59 139.7) (xy 270.51 139.7)
 		)
 		(stroke
@@ -6387,6 +6447,16 @@
 			(type default)
 		)
 		(uuid "572b75c8-1e5a-4fb9-bfff-b0e75e169e62")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5871b0ff-4e73-47dd-99ab-c2c43e78beed")
 	)
 	(wire
 		(pts
@@ -6577,6 +6647,16 @@
 			(type default)
 		)
 		(uuid "6a5c303c-9ef2-4302-a938-f1ce5491f293")
+	)
+	(wire
+		(pts
+			(xy 52.07 67.31) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf60f4a-5181-4284-a75e-348528c0d8c7")
 	)
 	(wire
 		(pts
@@ -6877,6 +6957,16 @@
 			(type default)
 		)
 		(uuid "86b4ebb1-945c-4b89-8472-1541e14f3d8d")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 46.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870354f0-95fd-4360-ba7f-464986a68b5d")
 	)
 	(wire
 		(pts
@@ -7220,6 +7310,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 63.5) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98857df-1122-4e6e-aa7e-4732a520e354")
+	)
+	(wire
+		(pts
 			(xy 102.87 59.69) (xy 124.46 59.69)
 		)
 		(stroke
@@ -7317,6 +7417,16 @@
 			(type default)
 		)
 		(uuid "b5648fab-02e5-4e33-a637-b0dc7b9f8677")
+	)
+	(wire
+		(pts
+			(xy 48.26 57.15) (xy 48.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f79056-3699-46e8-aecc-e5278c2d40fb")
 	)
 	(wire
 		(pts
@@ -7647,6 +7757,16 @@
 			(type default)
 		)
 		(uuid "e1bdfbd6-1c31-425c-9ac1-3a4fd0b8a22e")
+	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 44.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27521e0-2d41-441e-b87c-1c00716c9b04")
 	)
 	(wire
 		(pts
@@ -8048,6 +8168,16 @@
 		)
 		(uuid "66fac31f-fe64-46c6-b5c7-3395ab868876")
 	)
+	(label "SDA"
+		(at 44.45 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cc68504-d2f6-4d47-9691-26df81a0e777")
+	)
 	(label "CANH"
 		(at 149.86 179.07 0)
 		(effects
@@ -8117,6 +8247,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf4d41ab-7990-4dce-a182-d8835816f22b")
+	)
+	(label "SCL"
+		(at 44.45 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c69d809e-56e1-4698-b03c-bb8a9ad38a7e")
 	)
 	(label "CAN_TX"
 		(at 120.65 176.53 0)
@@ -8394,6 +8534,85 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02fe4f3c-7371-4b82-a541-b6f5fd3f10c8")
+		(property "Reference" "#PWR055"
+			(at 46.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "019b82ad-f626-4806-af70-c124bdc54fdb")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8937,6 +9156,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 34.29 60.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c035289-4325-421d-b391-f0661614455a")
+		(property "Reference" "J1"
+			(at 33.782 55.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "025323c5-04ef-4bac-b9c8-cd6ced3c2685")
+		)
+		(pin "3"
+			(uuid "159cf832-a4ae-438e-9851-f6c0d4e1c83a")
+		)
+		(pin "1"
+			(uuid "60ea1e9d-1459-4932-a72d-6e1e076f3a4c")
+		)
+		(pin "4"
+			(uuid "9ab94218-5b48-4b94-b264-c1dfe70b5010")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 99.06 0)
 		(unit 1)
@@ -9010,6 +9316,162 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18afe90e-38e7-4030-858f-d528a93ce8de")
+		(property "Reference" "#PWR039"
+			(at 48.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.086 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93220df1-e4a9-4328-a355-f2f52c895461")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ba68ce7-7015-4ccc-b804-c2561ced5e49")
+		(property "Reference" "#PWR056"
+			(at 52.07 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c42c2444-aeee-4f9f-867e-36a4a707af99")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10807,6 +11269,132 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f529e5e-9274-4b47-8929-df227391f346")
+		(property "Reference" "C22"
+			(at 55.88 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 55.88 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 51.1048 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 52.07 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 52.07 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 52.07 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 52.07 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7d73b50-384d-43d6-bff9-6248c3aad513")
+		)
+		(pin "1"
+			(uuid "a60385e8-3def-4890-ba12-34c122ebf53c")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "C22")
 					(unit 1)
 				)
 			)

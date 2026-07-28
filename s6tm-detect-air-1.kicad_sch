@@ -4257,6 +4257,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Gas:004-0-0010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -11.43 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "004-0-0010"
+				(at 7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP103.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "S8 Commercial, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Senseair co2 gas sensor pwm modbus"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Senseair*S8*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "004-0-0010_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "004-0-0010_1_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "G+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "G0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "ALARM_OC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "PWM_1KHZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "BCAL_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "UART_R/T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "UART_TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "UART_RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "DVCC_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Gas:MiCS-5524"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5461,6 +5721,18 @@
 		)
 		(uuid "ed257a4d-0934-4b7d-aef5-157c1832fc62")
 	)
+	(rectangle
+		(start 234.95 78.74)
+		(end 281.94 118.11)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ef0dd468-971d-4df9-b5d2-d8ff74fa4999")
+	)
 	(text "CAN\nTransceiver"
 		(exclude_from_sim no)
 		(at 126.492 192.024 0)
@@ -5568,6 +5840,18 @@
 			)
 		)
 		(uuid "ccf30315-4dbe-4962-93f0-f800bb6a4325")
+	)
+	(text "S88 CO2\nsensor"
+		(exclude_from_sim no)
+		(at 244.602 113.284 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d299d973-38cd-496e-8f5b-4cb77b319040")
 	)
 	(text "CAN Alive"
 		(exclude_from_sim no)
@@ -5895,6 +6179,12 @@
 		(uuid "f30df958-cbb5-44e9-a61e-68f40e7c7f2e")
 	)
 	(junction
+		(at 262.89 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8d0236b-56c1-4943-8f00-cf6e5e0d840a")
+	)
+	(junction
 		(at 149.86 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5909,8 +6199,20 @@
 		(uuid "0904bf5d-e8b7-4657-9607-4f886fb6c899")
 	)
 	(no_connect
+		(at 247.65 96.52)
+		(uuid "0f370926-0a95-48ea-bf97-a2aa94a1aa4b")
+	)
+	(no_connect
 		(at 245.11 147.32)
 		(uuid "0f422ad4-25c0-433e-af3b-3b1b5b123151")
+	)
+	(no_connect
+		(at 247.65 106.68)
+		(uuid "28f4b771-73fa-4b6c-9098-f0d3d9fdf704")
+	)
+	(no_connect
+		(at 278.13 106.68)
+		(uuid "2cb0008d-c56b-43c6-9288-50a7761fafa9")
 	)
 	(no_connect
 		(at 130.81 92.71)
@@ -5927,6 +6229,14 @@
 	(no_connect
 		(at 130.81 85.09)
 		(uuid "9a9bb156-1e56-45b9-8d6e-af836bc0a0e2")
+	)
+	(no_connect
+		(at 278.13 101.6)
+		(uuid "cf43f647-68af-41a8-926b-4abcb0dd6fd9")
+	)
+	(no_connect
+		(at 278.13 96.52)
+		(uuid "d20d14f0-bf04-422e-aa5e-27f97d6d71e5")
 	)
 	(no_connect
 		(at 240.03 147.32)
@@ -6744,6 +7054,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 85.09) (xy 262.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9ec9b1-091b-4619-9346-46b3c2c9bc6b")
+	)
+	(wire
+		(pts
 			(xy 53.34 99.06) (xy 53.34 100.33)
 		)
 		(stroke
@@ -6791,6 +7111,16 @@
 			(type default)
 		)
 		(uuid "62d65eb6-0fce-4c6d-a089-c8a2a112818b")
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06) (xy 247.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ac3efd-cd8f-4518-b16d-f48fa31f813b")
 	)
 	(wire
 		(pts
@@ -7021,6 +7351,16 @@
 			(type default)
 		)
 		(uuid "77e3d573-28a6-4152-b426-b4f05d9beb8f")
+	)
+	(wire
+		(pts
+			(xy 252.73 86.36) (xy 254 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f6356e-d2a7-4a43-b84e-25f431549e98")
 	)
 	(wire
 		(pts
@@ -7271,6 +7611,16 @@
 			(type default)
 		)
 		(uuid "8fafc858-edc7-4614-bfea-4b34778e0ceb")
+	)
+	(wire
+		(pts
+			(xy 262.89 86.36) (xy 261.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb20e70-4796-4f0d-af5f-5f5dd17621ec")
 	)
 	(wire
 		(pts
@@ -7571,6 +7921,16 @@
 			(type default)
 		)
 		(uuid "aa53d4ad-6f15-49b3-8b73-964022539989")
+	)
+	(wire
+		(pts
+			(xy 238.76 101.6) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11e2335-00d0-42bc-9adf-9d43ebdb97e7")
 	)
 	(wire
 		(pts
@@ -8054,6 +8414,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 111.76) (xy 262.89 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d10591-25ae-4c98-87f3-91e933092bba")
+	)
+	(wire
+		(pts
 			(xy 148.59 179.07) (xy 149.86 179.07)
 		)
 		(stroke
@@ -8121,6 +8491,16 @@
 			(type default)
 		)
 		(uuid "ec6f5da0-418f-4a89-bf64-06fe2ad27afb")
+	)
+	(wire
+		(pts
+			(xy 252.73 87.63) (xy 252.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb57db2-2a8d-476b-920f-8c8ff574a070")
 	)
 	(wire
 		(pts
@@ -8201,6 +8581,16 @@
 			(type default)
 		)
 		(uuid "f3fada68-448e-42e1-b6a6-1d229161586b")
+	)
+	(wire
+		(pts
+			(xy 262.89 86.36) (xy 262.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f414640a-7668-463f-80b2-6c8340f12e31")
 	)
 	(wire
 		(pts
@@ -8341,6 +8731,16 @@
 			(justify right bottom)
 		)
 		(uuid "1dfcb80a-1686-4fb6-a9ee-8a79ee37d49d")
+	)
+	(label "S88_RX"
+		(at 238.76 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d9ebff-a77b-4605-aa3e-6972c59251e4")
 	)
 	(label "SCL"
 		(at 33.02 44.45 180)
@@ -8511,6 +8911,16 @@
 			(justify left bottom)
 		)
 		(uuid "820866fa-ebf0-4aed-a67f-a01aa28c4f71")
+	)
+	(label "S88_TX"
+		(at 238.76 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f30c4ab-a439-4858-9194-3e5cba04681c")
 	)
 	(label "SDA"
 		(at 100.33 157.48 180)
@@ -9450,6 +9860,162 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 262.89 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d30d889-931f-41f4-9ef7-78397ed2e4a1")
+		(property "Reference" "#PWR060"
+			(at 262.89 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 262.382 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 262.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "479a0afc-290c-4916-b000-a782d3f5934f")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10313c72-f0de-4dd2-a452-1b52073a2888")
+		(property "Reference" "#PWR057"
+			(at 262.89 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2f13b66-8ead-45fd-9a36-a93d8cd6afad")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11079,6 +11645,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2abe2fb8-a080-4437-b3ab-a90343e09d64")
+		(property "Reference" "#PWR061"
+			(at 252.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11f3f379-02e0-4898-a6b5-6e48b02338b0")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 161.29 36.83 0)
 		(unit 1)
@@ -11890,6 +12536,132 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 257.81 86.36 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42c7198f-a42d-42ca-9228-a772e29b170b")
+		(property "Reference" "C24"
+			(at 255.27 82.042 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 255.27 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254 85.3948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 257.81 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 257.81 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 257.81 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 257.81 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 257.81 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00a95390-948e-4a9f-964b-25aaf846b7bd")
+		)
+		(pin "1"
+			(uuid "aa029ab3-2928-4c63-9df3-cf1cb9995202")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -14919,6 +15691,109 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Gas:004-0-0010")
+		(at 262.89 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "978165f1-dbd7-482d-ac08-407435c2e042")
+		(property "Reference" "U5"
+			(at 265.0333 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "004-1-0100"
+			(at 265.0333 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor:Senseair_S8_Up"
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP103.pdf"
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "S8 Commercial, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT"
+			(at 262.89 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3093369e-c513-4d2d-9d9c-8d850034fb63")
+		)
+		(pin "5"
+			(uuid "66b2da98-a1e0-4606-ba0e-38118b02c5e3")
+		)
+		(pin "7"
+			(uuid "70af0d39-e221-4681-92e9-5f1c46ab6def")
+		)
+		(pin "1"
+			(uuid "58acfbc0-93a1-423b-b8c2-b2fa7a8457a8")
+		)
+		(pin "8"
+			(uuid "f9eca413-4679-43d9-a568-c851e67e0811")
+		)
+		(pin "2"
+			(uuid "0a47286c-7b06-4baf-8970-08389502c746")
+		)
+		(pin "9"
+			(uuid "f228813a-fe27-4b51-a62d-bfc25837dca0")
+		)
+		(pin "6"
+			(uuid "241d061f-2236-4890-aa46-ec0f036149b5")
+		)
+		(pin "4"
+			(uuid "9efe0d46-0bf8-4f25-be08-dbec74413b9a")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "U5")
 					(unit 1)
 				)
 			)

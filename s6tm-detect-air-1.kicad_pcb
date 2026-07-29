@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "S6TM Detect air 1")
+		(date "2026-04-11")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

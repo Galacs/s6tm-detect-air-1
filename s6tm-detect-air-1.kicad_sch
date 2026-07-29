@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "8d20b800-c106-4814-ab1a-7da2e31fcc85")
 	(paper "A4")
+	(title_block
+		(title "S6TM Detect air 1")
+		(date "2026-04-11")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LMC6482"
 			(pin_names

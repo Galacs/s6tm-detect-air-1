@@ -11939,7 +11939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 77.47 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +15016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.368 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -15301,7 +15301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 66.04 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -16092,7 +16092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -19191,7 +19191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.212 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -20174,7 +20174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 22.86 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20933,7 +20933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 34.29 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21460,7 +21460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -22176,7 +22176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 102.87 127 0)
 			(hide yes)
 			(show_name no)

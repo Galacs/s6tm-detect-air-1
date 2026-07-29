@@ -2259,7 +2259,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "GLCS:Sciosense_ENS160_LGA_9_3x3mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21494,28 +21494,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "164df4a2-f316-4a1e-aac9-ba71630e3c4d")
+			(uuid "164df4a2-f316-4a1e-aac9-ba71630e3c4e")
 		)
 		(pin "4"
-			(uuid "27c0f6aa-80b9-484e-bc93-27dee9c7236d")
+			(uuid "27c0f6aa-80b9-484e-bc93-27dee9c7236e")
 		)
 		(pin "2"
-			(uuid "0c2c6075-fe56-4c35-9b8d-73ce4a89ce5e")
+			(uuid "0c2c6075-fe56-4c35-9b8d-73ce4a89ce5f")
 		)
 		(pin "3"
-			(uuid "0ea65b17-1bf3-4628-b36c-b95517229b5e")
+			(uuid "0ea65b17-1bf3-4628-b36c-b95517229b5f")
 		)
 		(pin "5"
-			(uuid "b3b11324-8173-48b7-891a-4c6373928999")
+			(uuid "b3b11324-8173-48b7-891a-4c637392899a")
 		)
 		(pin "8"
-			(uuid "b508bbc8-44be-4bd9-9699-aefd53def612")
+			(uuid "b508bbc8-44be-4bd9-9699-aefd53def613")
 		)
 		(pin "6"
-			(uuid "9828426b-2a0a-459c-9d49-4df1edd77219")
+			(uuid "9828426b-2a0a-459c-9d49-4df1edd7721a")
 		)
 		(pin "7"
-			(uuid "2b6ece28-35cb-4934-a5a0-a8ee6f43d968")
+			(uuid "2b6ece28-35cb-4934-a5a0-a8ee6f43d969")
 		)
 		(instances
 			(project "s6tm-detect-air-1"
@@ -22210,28 +22210,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "164df4a2-f316-4a1e-aac9-ba71630e3c4d")
+			(uuid "164df4a2-f316-4a1e-aac9-ba71630e3c4f")
 		)
 		(pin "4"
-			(uuid "27c0f6aa-80b9-484e-bc93-27dee9c7236d")
+			(uuid "27c0f6aa-80b9-484e-bc93-27dee9c7236f")
 		)
 		(pin "2"
-			(uuid "0c2c6075-fe56-4c35-9b8d-73ce4a89ce5e")
+			(uuid "0c2c6075-fe56-4c35-9b8d-73ce4a89ce60")
 		)
 		(pin "3"
-			(uuid "0ea65b17-1bf3-4628-b36c-b95517229b5e")
+			(uuid "0ea65b17-1bf3-4628-b36c-b95517229b60")
 		)
 		(pin "5"
-			(uuid "b3b11324-8173-48b7-891a-4c6373928999")
+			(uuid "b3b11324-8173-48b7-891a-4c637392899b")
 		)
 		(pin "8"
-			(uuid "b508bbc8-44be-4bd9-9699-aefd53def612")
+			(uuid "b508bbc8-44be-4bd9-9699-aefd53def614")
 		)
 		(pin "6"
-			(uuid "9828426b-2a0a-459c-9d49-4df1edd77219")
+			(uuid "9828426b-2a0a-459c-9d49-4df1edd7721b")
 		)
 		(pin "7"
-			(uuid "2b6ece28-35cb-4934-a5a0-a8ee6f43d968")
+			(uuid "2b6ece28-35cb-4934-a5a0-a8ee6f43d96a")
 		)
 		(instances
 			(project "s6tm-detect-air-1"
@@ -23115,7 +23115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ENS160"
+		(property "Value" "ENS16x"
 			(at 266.7 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23126,7 +23126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Sciosense_ENS160_LGA_9_3x3mm"
 			(at 262.89 66.04 0)
 			(hide yes)
 			(show_name no)

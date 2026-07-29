@@ -15552,7 +15552,7 @@
 		(dnp no)
 		(uuid "47e298e1-540f-418e-93c8-f3ffaf9a35f4")
 		(property "Reference" "TP4"
-			(at 94.742 99.568 0)
+			(at 93.726 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17990,7 +17990,7 @@
 		(dnp no)
 		(uuid "71ebf614-2c5e-4e26-8774-84071700ea20")
 		(property "Reference" "TP3"
-			(at 87.122 69.088 0)
+			(at 86.36 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

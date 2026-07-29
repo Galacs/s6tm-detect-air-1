@@ -6916,6 +6916,12 @@
 		(uuid "4757e804-81af-472b-8199-c1dcfd9a35c4")
 	)
 	(junction
+		(at 209.55 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f7cc12-beb3-4598-9c36-b8af72ee1fb7")
+	)
+	(junction
 		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7034,6 +7040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f648a1-43eb-4109-bea7-79c8ad83bd34")
+	)
+	(junction
+		(at 127 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c6e90a-3c77-43c0-9a67-5acc6a0c1143")
 	)
 	(junction
 		(at 275.59 139.7)
@@ -9341,7 +9353,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 129.54) (xy 213.36 129.54)
+			(xy 205.74 129.54) (xy 209.55 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9478,6 +9490,16 @@
 			(type default)
 		)
 		(uuid "aa53d4ad-6f15-49b3-8b73-964022539989")
+	)
+	(wire
+		(pts
+			(xy 209.55 129.54) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7f9771-7707-49fc-8893-f02c82bbb417")
 	)
 	(wire
 		(pts
@@ -20565,6 +20587,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 209.55 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b913a175-12fd-488d-a914-955f2b19648a")
+		(property "Reference" "#FLG06"
+			(at 209.55 127.635 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 209.5499 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "507c121f-38ce-485c-bcda-10d2fef639a3")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 21.59 144.78 0)
 		(unit 1)
@@ -21083,6 +21185,86 @@
 			(project "s6tm-detect-air-1"
 				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 127 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c341b531-3871-4aa8-b546-9d0eb0f50431")
+		(property "Reference" "#FLG05"
+			(at 125.095 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 123.19 184.1501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 127 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8618c84-e277-4356-8c46-b9efa3d375a4")
+		)
+		(instances
+			(project "s6tm-detect-air-1"
+				(path "/8d20b800-c106-4814-ab1a-7da2e31fcc85"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

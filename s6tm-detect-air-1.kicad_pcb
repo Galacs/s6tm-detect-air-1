@@ -20758,6 +20758,42 @@
 		(layer "Edge.Cuts")
 		(uuid "9799a521-51e4-41f7-8c0c-627ae5236770")
 	)
+	(gr_text "Rev 01"
+		(at 162.75 72 0)
+		(layer "B.SilkS")
+		(uuid "654b4986-cb4f-4019-8fcc-7e86ad1a9e57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Rémi A. 26-07"
+		(at 178.637142 72 0)
+		(layer "B.SilkS")
+		(uuid "09ecb64c-6954-48cc-87ac-9ad4a61c738a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "S6TM Detect air 1"
+		(at 178.857142 70 0)
+		(layer "B.SilkS")
+		(uuid "737b1fc3-7241-49bb-b6ad-4bbb275c1eb6")
+		(effects
+			(font
+				(size 1.55 1.55)
+				(thickness 0.1875)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 126 59.01)
 		(end 127.56 59.01)

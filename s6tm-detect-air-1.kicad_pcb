@@ -14211,24 +14211,24 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.06 -1.71)
-			(end -2.06 1.71)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a35a441b-0fcc-4267-9c6c-34ffac82443c")
-		)
-		(fp_line
 			(start -2.06 1.71)
-			(end 2.06 1.71)
+			(end -2.06 -1.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "cbd69769-49f8-4bef-bc36-f597d080e876")
+		)
+		(fp_line
+			(start 2.06 -1.71)
+			(end -2.06 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a35a441b-0fcc-4267-9c6c-34ffac82443c")
 		)
 		(fp_rect
 			(start -2.1 -1.75)
@@ -21853,10 +21853,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "A8"
-		(at 157.25 102.5 0)
+	(gr_text "B13"
+		(at 157.25 104.75 0)
 		(layer "F.SilkS")
-		(uuid "48d8083e-2a83-422a-b8cb-12f0f3646abf")
+		(uuid "7443f06c-63e1-4491-ab9a-a6aa8e71f88a")
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -21866,10 +21866,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "B13"
-		(at 157.25 104.75 0)
+	(gr_text "A8"
+		(at 157.75 102.5 0)
 		(layer "F.SilkS")
-		(uuid "7443f06c-63e1-4491-ab9a-a6aa8e71f88a")
+		(uuid "48d8083e-2a83-422a-b8cb-12f0f3646abf")
 		(effects
 			(font
 				(size 0.9 0.9)

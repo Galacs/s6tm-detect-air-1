@@ -8309,6 +8309,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a191ff-d80d-450e-8df9-17094ed69425")
+	)
+	(wire
+		(pts
 			(xy 104.14 58.42) (xy 104.14 63.5)
 		)
 		(stroke
@@ -8396,16 +8406,6 @@
 			(type default)
 		)
 		(uuid "1a4d4357-1a53-4c6b-aae4-0d8b9267a97c")
-	)
-	(wire
-		(pts
-			(xy 176.53 78.74) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b17a0eb-f5a8-4bb1-8a55-cb93e24553a0")
 	)
 	(wire
 		(pts
@@ -10329,6 +10329,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab974a71-8755-4ba0-9297-620fc27d724c")
+	)
+	(wire
+		(pts
 			(xy 259.08 45.72) (xy 260.35 45.72)
 		)
 		(stroke
@@ -10636,16 +10646,6 @@
 			(type default)
 		)
 		(uuid "c85f5a0d-5d02-4ff3-983e-0aec3e4a62ce")
-	)
-	(wire
-		(pts
-			(xy 176.53 76.2) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c870f552-a1fd-4fef-aa41-782196356959")
 	)
 	(wire
 		(pts
@@ -11517,6 +11517,16 @@
 		)
 		(uuid "3de63a4e-8761-4235-892d-b0d8c1496d1c")
 	)
+	(label "S88_RX"
+		(at 176.53 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4025d573-6569-43c9-ab4b-31a8e6a56457")
+	)
 	(label "NRST"
 		(at 113.03 48.26 0)
 		(effects
@@ -11576,16 +11586,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d5535a1-b1e1-49a1-916a-7e8617c5406c")
-	)
-	(label "S88_TX"
-		(at 176.53 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d85802a-b2c7-44c1-a85d-7f498c4e1004")
 	)
 	(label "SWDIO"
 		(at 176.53 86.36 180)
@@ -11667,6 +11667,16 @@
 		)
 		(uuid "767f5835-3f84-4c71-a912-8d3c1062e4b4")
 	)
+	(label "S88_TX"
+		(at 176.53 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a0b447d-9d86-4cf6-a5b7-2d9d41489c5b")
+	)
 	(label "CAN_RX"
 		(at 124.46 101.6 0)
 		(effects
@@ -11706,16 +11716,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5a9dc99-0d05-4d2b-a6e9-6aac70573326")
-	)
-	(label "S88_RX"
-		(at 176.53 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ab62b96d-8d0d-4ef3-b5ac-9cdd65e944d6")
 	)
 	(label "SDA"
 		(at 124.46 99.06 0)

@@ -18,7 +18,11 @@ Air module 1 for the detect series with various co2 and mox air sensors
 
 ## Top preview
 
+<img width="924" height="905" alt="image" src="https://github.com/user-attachments/assets/d5697c41-7fb4-4b56-806c-0fa1a4baf1ca" />
+
 ## Preview 3d render
+
+<img width="943" height="828" alt="image" src="https://github.com/user-attachments/assets/464f2be3-a884-4f92-830b-e6a6159647cc" />
 
 ## Pin definitions
 
